@@ -1,0 +1,18 @@
+{
+  "name": "autodmmmm",
+  "version": "1.0.0",
+  "description": "A little bot for auto dmm",
+  "main": "filter.js",
+  "scripts": {},
+  "repository": "",
+  "author": "Ian M",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "twit": "~1.1.11",
+    "express": "~3.4.6"
+  }
+}
