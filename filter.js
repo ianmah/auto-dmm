@@ -26,7 +26,7 @@ function followed(event) {
   var screenName = event.source.screen_name;
   console.log('I was followed by: ' + name + ' ' + screenName);
   
-  twit.post('direct_messages/new', {screen_name: screenName, text: 'Hey ' + screenName + ' thanks for following me!'}, function(err, data, reply) {
+  twit.post('direct_messages/new', {screen_name: screenName, text: 'Yo ' + screenName + ' what the duck is up. Follow me on instagram @notianmah to see all my dank photos ;)'}, function(err, data, reply) {
       console.log("DM sent to :" + screenName);
       err;
     });
